@@ -6,7 +6,10 @@ Installation
 To run this project, you need to have Python installed on your machine. You can install the required dependencies using pip:
 pip install streamlit pandas matplotlib
 
-Make sure to install streamlit in your code
+Make sure to import streamlit in your code, and other libraries that will help you plot the data
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
 
 Usage
 To run the Streamlit app, use the following command: streamlit run app.py
